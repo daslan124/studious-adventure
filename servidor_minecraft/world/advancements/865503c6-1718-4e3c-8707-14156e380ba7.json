@@ -36,8 +36,10 @@
       "minecraft:dripstone_caves": "2025-01-11 05:44:03 +0000",
       "minecraft:grove": "2025-01-11 06:03:49 +0000",
       "minecraft:swamp": "2025-01-11 06:22:44 +0000",
+      "minecraft:jagged_peaks": "2025-01-11 18:22:58 +0000",
       "minecraft:cold_ocean": "2025-01-11 04:30:09 +0000",
       "minecraft:forest": "2025-01-11 04:29:59 +0000",
+      "minecraft:lush_caves": "2025-01-11 18:24:08 +0000",
       "minecraft:deep_cold_ocean": "2025-01-11 05:49:19 +0000",
       "minecraft:ice_spikes": "2025-01-11 06:01:48 +0000",
       "minecraft:frozen_ocean": "2025-01-11 06:00:44 +0000",
@@ -1236,6 +1238,18 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-01-11 18:07:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-01-11 18:25:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-01-11 18:25:08 +0000"
     },
     "done": true
   },
