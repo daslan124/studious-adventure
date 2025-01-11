@@ -1493,3 +1493,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 22:00:57.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.288187725353055,1.0333573308863464,-3.264680587570183
 [11Jan2025 22:01:07.659] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
 [11Jan2025 22:01:07.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 22:05:06.557] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 22:05:06.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 22:10:06.556] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 22:10:06.561] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
