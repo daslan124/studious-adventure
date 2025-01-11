@@ -33,15 +33,22 @@
       "minecraft:snowy_plains": "2025-01-11 05:16:33 +0000",
       "minecraft:snowy_taiga": "2025-01-11 05:16:24 +0000",
       "minecraft:dripstone_caves": "2025-01-11 05:44:03 +0000",
+      "minecraft:grove": "2025-01-11 06:03:49 +0000",
+      "minecraft:swamp": "2025-01-11 06:22:44 +0000",
       "minecraft:cold_ocean": "2025-01-11 04:30:09 +0000",
       "minecraft:forest": "2025-01-11 04:29:59 +0000",
       "minecraft:deep_cold_ocean": "2025-01-11 05:49:19 +0000",
+      "minecraft:ice_spikes": "2025-01-11 06:01:48 +0000",
+      "minecraft:frozen_ocean": "2025-01-11 06:00:44 +0000",
       "minecraft:desert": "2025-01-11 05:04:00 +0000",
       "minecraft:windswept_forest": "2025-01-11 05:14:40 +0000",
       "minecraft:ocean": "2025-01-11 03:23:33 +0000",
       "minecraft:jungle": "2025-01-11 04:59:15 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-11 05:14:34 +0000",
+      "minecraft:snowy_beach": "2025-01-11 06:00:42 +0000",
+      "minecraft:windswept_savanna": "2025-01-11 06:22:35 +0000",
       "minecraft:flower_forest": "2025-01-11 03:17:54 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-11 06:12:34 +0000",
       "minecraft:meadow": "2025-01-11 04:40:25 +0000",
       "minecraft:savanna": "2025-01-11 05:11:05 +0000",
       "minecraft:plains": "2025-01-11 03:16:20 +0000"
@@ -740,7 +747,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-01-11 04:24:38 +0000"
+      "bread": "2025-01-11 04:24:38 +0000",
+      "golden_apple": "2025-01-11 06:11:50 +0000"
     },
     "done": false
   },
@@ -991,27 +999,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-01-11 05:47:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
+      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
     },
     "done": true
   },
@@ -1045,33 +1041,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_door": {
-    "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-01-11 05:50:07 +0000"
     },
     "done": true
   },
@@ -1099,6 +1071,54 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-11 05:50:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-01-11 05:50:07 +0000"
@@ -1111,12 +1131,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-01-11 05:50:07 +0000"
@@ -1126,12 +1140,6 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-01-11 05:50:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_leggings": {
-    "criteria": {
-      "has_gold_ingot": "2025-01-11 05:47:56 +0000"
     },
     "done": true
   },
