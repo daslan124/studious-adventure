@@ -469,3 +469,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 18:43:19.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
 [11Jan2025 18:43:50.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
 [11Jan2025 18:43:50.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 18:44:31.406] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
+[11Jan2025 18:44:32.865] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:59234] logged in with entity id 38224 at (98922.31436362829, 89.0, 99734.99113873021)
+[11Jan2025 18:44:32.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 18:44:39.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[11Jan2025 18:45:26.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Applied enchantment Sharpness V to dylanve's item]
+[11Jan2025 18:46:44.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 18:47:01.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 18:48:56.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was slain by Umvuthi, the Sunbird
+[11Jan2025 18:49:00.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 18:49:01.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 18:49:25.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 18:49:41.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 18:50:42.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 18:50:51.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has completed the challenge [Praise the Sun]
+[11Jan2025 18:50:52.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 18:53:33.662] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
+[11Jan2025 18:53:33.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
