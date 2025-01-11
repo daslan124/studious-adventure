@@ -1,33 +1,33 @@
-[11Jan2025 04:54:13.453] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[11Jan2025 04:54:13.457] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[11Jan2025 04:54:13.789] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11Jan2025 04:54:13.862] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/studious-adventure/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[11Jan2025 04:54:14.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 04:54:14.215] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 04:54:14.218] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 04:54:14.219] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 04:54:14.464] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[11Jan2025 04:54:16.768] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jan2025 04:54:16.831] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[11Jan2025 04:54:17.086] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 04:54:18.362] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11Jan2025 04:54:25.879] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[11Jan2025 04:54:25.901] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[11Jan2025 04:54:25.904] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[11Jan2025 04:54:26.131] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[11Jan2025 04:54:26.391] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[11Jan2025 04:54:26.392] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[11Jan2025 04:54:27.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[11Jan2025 04:54:28.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[11Jan2025 04:54:28.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[11Jan2025 04:54:29.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[11Jan2025 04:54:29.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jan2025 04:54:29.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[11Jan2025 04:54:29.834] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11Jan2025 04:54:31.080] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[11Jan2025 04:54:31.080] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[11Jan2025 04:54:32.741] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag simpleplanes:fireproof_materials as it is missing following references: #minecraft:non_flammable_wood (from simpleplanes-1.20.1-5.3.3.jar)
-[11Jan2025 04:54:33.762] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+[11Jan2025 05:27:23.426] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11Jan2025 05:27:23.431] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[11Jan2025 05:27:23.729] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Jan2025 05:27:23.796] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/studious-adventure/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Jan2025 05:27:24.054] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jan2025 05:27:24.056] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jan2025 05:27:24.058] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jan2025 05:27:24.059] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jan2025 05:27:24.274] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[11Jan2025 05:27:26.406] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Jan2025 05:27:26.470] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[11Jan2025 05:27:26.693] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jan2025 05:27:28.053] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11Jan2025 05:27:34.959] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[11Jan2025 05:27:34.965] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[11Jan2025 05:27:34.966] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[11Jan2025 05:27:35.172] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[11Jan2025 05:27:35.417] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[11Jan2025 05:27:35.417] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[11Jan2025 05:27:36.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[11Jan2025 05:27:37.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[11Jan2025 05:27:37.702] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[11Jan2025 05:27:38.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[11Jan2025 05:27:38.060] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Jan2025 05:27:38.308] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[11Jan2025 05:27:39.077] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Jan2025 05:27:40.030] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[11Jan2025 05:27:40.031] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[11Jan2025 05:27:42.028] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag simpleplanes:fireproof_materials as it is missing following references: #minecraft:non_flammable_wood (from simpleplanes-1.20.1-5.3.3.jar)
+[11Jan2025 05:27:43.148] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -79,385 +79,54 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[11Jan2025 04:54:34.479] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
-[11Jan2025 04:54:34.509] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[11Jan2025 04:54:34.628] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1330 advancements
-[11Jan2025 04:54:35.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[11Jan2025 04:54:35.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jan2025 04:54:35.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jan2025 04:54:35.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jan2025 04:54:35.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jan2025 04:54:36.009] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jan2025 04:54:36.193] [Server thread/INFO] [Framework/]: Loading server configs...
-[11Jan2025 04:54:36.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jan2025 04:54:40.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jan2025 04:54:45.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.268] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.276] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.293] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.314] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.335] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.356] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.363] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.387] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.395] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.489] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:45.983] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:46.494] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:46.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 04:54:47.480] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[11Jan2025 04:54:47.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[11Jan2025 04:54:48.292] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7813 ms
-[11Jan2025 04:54:48.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.151s)! For help, type "help"
-[11Jan2025 04:54:48.339] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jan2025 04:54:48.582] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 110985 bytes (in 12 string chunks with the size of 10000)
-[11Jan2025 04:55:09.858] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
-[11Jan2025 04:55:11.984] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:56272] logged in with entity id 47 at (-518.403946214002, 105.28411865234375, -497.44173744538506)
-[11Jan2025 04:55:12.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
-[11Jan2025 04:55:15.087] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3154ms or 63 ticks behind
-[11Jan2025 04:55:18.860] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Bee['Bee'/257, l='ServerLevel[world]', x=-595.88, y=106.99, z=-376.83]
-[11Jan2025 04:55:52.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 04:57:51.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve drowned whilst trying to escape Drowned
-[11Jan2025 04:57:52.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 04:57:59.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 04:58:10.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -7.762560180325636,0.0,7.574834775208103
-[11Jan2025 04:58:24.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -8.587916268374443,0.0,6.648886166019963
-[11Jan2025 04:59:13.212] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:ruined_portal_jungle took 115 ms
-[11Jan2025 04:59:15.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to -319.500000, 115.347449, 368.500000]
-[11Jan2025 04:59:24.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -0.4905450988661073,-5.999992836786134,8.300895172141793
-[11Jan2025 05:00:26.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 05:00:46.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 05:02:34.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 05:02:39.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 05:02:52.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 05:07:17.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:07:25.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:08:06.991] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9325, l='ServerLevel[world]', x=-172.43, y=61.04, z=2494.30] died, message: 'Villager drowned'
-[11Jan2025 05:09:41.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:09:56.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 40 [Oak Log] to dylanve]
-[11Jan2025 05:11:13.556] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 1.6650311498813437,-0.5187280568668058,9.975862038865216
-[11Jan2025 05:11:13.557] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 1.7798046851719391,-0.5477342358426114,10.65144605058913
-[11Jan2025 05:11:13.557] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 1.8946391708361716,-0.5757365425851333,11.328114133078998
-[11Jan2025 05:11:15.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -4.163337525893098,1.005329916625712,-26.04256789177407
-[11Jan2025 05:11:15.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -4.163337525893098,1.005329916625712,-26.04256789177407
-[11Jan2025 05:11:15.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -4.163337525893098,1.005329916625712,-26.04256789177407
-[11Jan2025 05:11:15.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -4.060296634307491,0.979376126232836,-25.402468612279336
-[11Jan2025 05:11:15.363] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.9558134051414697,0.9519795394613766,-24.760716166324528
-[11Jan2025 05:11:15.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.849946116360087,0.9238172523082682,-24.11727144528959
-[11Jan2025 05:11:15.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.7427533401490223,0.895441397884909,-23.472126374267646
-[11Jan2025 05:11:15.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.6342958208876723,0.8672971150819535,-22.82529647194542
-[11Jan2025 05:11:15.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.524637748002391,0.8397374987717114,-22.176814095591
-[11Jan2025 05:11:15.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.4138477705208743,0.8130360862588617,-21.526723776796644
-[11Jan2025 05:11:15.657] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.3019995013303287,0.7873973327647548,-20.875077768074334
-[11Jan2025 05:11:15.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.189171815215502,0.7629654764139815,-20.221932946644756
-[11Jan2025 05:11:15.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -3.075448734288358,0.7398321633472875,-19.567347679210798
-[11Jan2025 05:11:15.815] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.960919294999428,0.7180430155526949,-18.91138045451771
-[11Jan2025 05:11:15.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.845676961418036,0.6976034442363357,-18.254087546043593
-[11Jan2025 05:11:15.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.7298190924460926,0.6784838523909542,-17.59552229713654
-[11Jan2025 05:11:16.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.6134461839610594,0.6606243366850606,-16.935734222763585
-[11Jan2025 05:11:16.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.4966610383267493,0.6439390326728187,-16.274768649652287
-[11Jan2025 05:11:16.059] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -2.3795678776786815,0.6283201547583701,-15.612666579000233
-[11Jan2025 05:11:45.903] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:11:53.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:13:02.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:14:44.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -10.09495613940885,0.011687594430568993,1.2829421438946156
-[11Jan2025 05:14:44.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -10.769016965366745,0.019719912956560393,1.3640954680236064
-[11Jan2025 05:14:44.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -11.44300416170222,0.028650868894416703,1.4443917417233934
-[11Jan2025 05:14:44.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.116881754625183,0.03842510057722848,1.5237899257235767
-[11Jan2025 05:14:44.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.790614826444653,0.04899443505159695,1.6022555908580216
-[11Jan2025 05:14:44.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -13.464168569827052,0.060315965629001767,1.6797615403393138
-[11Jan2025 05:14:44.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -14.13750788050288,0.0723504065841496,1.7562884149224374
-[11Jan2025 05:14:44.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -14.810597212933999,0.0850606872789541,1.8318251705954935
-[11Jan2025 05:14:44.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -15.483400448660177,0.09841073987972493,1.9063695053523588
-[11Jan2025 05:14:44.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -16.155880027552257,0.11236438307284402,1.9799279910375844
-[11Jan2025 05:14:44.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -16.827997986458513,0.12688449678270786,2.0525162988269585
-[11Jan2025 05:14:44.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -17.49971564931957,0.14193228893581988,2.124159089152272
-[11Jan2025 05:14:44.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -18.17099386389691,0.15746669870785013,2.1948898831547012
-[11Jan2025 05:14:44.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -18.841793712560957,0.1734440161392854,2.2647507456999847
-[11Jan2025 05:14:44.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -19.51207637084599,0.18981754649044547,2.3337917916137485
-[11Jan2025 05:14:44.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -20.181803828153534,0.20653747955719837,2.402070621738858
-[11Jan2025 05:14:44.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -20.850939493185706,0.2235508844686791,2.469651598225937
-[11Jan2025 05:14:44.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -21.51944892933284,0.2408018443177582,2.536605021134619
-[11Jan2025 05:14:44.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -22.187300056947606,0.25823167277597747,2.6030061578753703
-[11Jan2025 05:14:44.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -22.854463877681155,0.275779285790378,2.668934211065789
-[11Jan2025 05:14:44.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -23.520914953221563,0.2933816482695306,2.734471204237252
-[11Jan2025 05:14:44.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -24.186632336643243,0.310974369818652,2.799700875572398
-[11Jan2025 05:14:44.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -24.85160017879707,0.32849239207924086,2.864707487137366
-[11Jan2025 05:14:44.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -25.515807321992952,0.3458706237034477,2.9295745466492917
-[11Jan2025 05:14:44.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -26.179249015147207,0.36304481748022965,2.994383761230438
-[11Jan2025 05:14:44.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -26.84192601853738,0.37995232252785627,3.0592137207054293
-[11Jan2025 05:14:44.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -27.50384577239879,0.39653296217719003,3.1241388668554464
-[11Jan2025 05:14:44.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -28.165022309415917,0.4127298972092319,3.189228426983391
-[11Jan2025 05:14:44.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -28.825476695591078,0.4284904909274019,3.2545455153963303
-[11Jan2025 05:14:44.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -29.485236465071694,0.44376708860070835,3.32014617877212
-[11Jan2025 05:14:44.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -30.144335532155083,0.45851776582657067,3.38607868296549
-[11Jan2025 05:14:44.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -30.80281477765425,0.472707104519543,3.4523830257071495
-[11Jan2025 05:14:44.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -31.46072081546481,0.4863067543816726,3.5190902849067243
-[11Jan2025 05:14:44.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -32.118106156104886,0.4992960036377809,3.58622241721514
-[11Jan2025 05:14:44.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -32.77502857434388,0.5116622062691505,3.653792108300877
-[11Jan2025 05:14:44.167] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -33.431550014067625,0.5234010574452412,3.721802693479276
-[11Jan2025 05:14:44.167] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -34.08773638907269,0.5345167965416664,3.7902483369348374
-[11Jan2025 05:14:44.167] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -34.74365662592504,0.5450222658842137,3.859114388224498
-[11Jan2025 05:14:44.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -35.39940749156813,0.5549388045168513,3.928129059578623
-[11Jan2025 05:14:44.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.05517987337407,0.564295938135345,3.99606530031042
-[11Jan2025 05:14:44.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.711197158324694,0.5731297982692638,4.061055837278673
-[11Jan2025 05:14:44.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -37.36765335393511,0.5814805885219556,4.12082932139765
-[11Jan2025 05:14:44.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.02465575796123,0.5893895865631151,4.172887065798477
-[11Jan2025 05:14:44.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.68217851057807,0.596896383432977,4.214635882198763
-[11Jan2025 05:14:44.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.340028911492254,0.604036747288319,4.24348818873068
-[11Jan2025 05:14:44.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.997824880327926,0.6108411736666284,4.256937610387467
-[11Jan2025 05:14:44.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -40.6549844458857,0.6173341478316559,4.252616095585836
-[11Jan2025 05:14:44.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.31072505076827,0.6235340232726969,4.228336642921477
-[11Jan2025 05:14:44.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.964071213818215,0.6294533395270037,4.182124644117266
-[11Jan2025 05:14:44.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -42.61386866056864,0.6350994054818386,4.112240014958388
-[11Jan2025 05:14:44.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.25880398080312,0.64047506683535,4.017191503101003
-[11Jan2025 05:14:44.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.89742678598259,0.6455794540563318,3.895744850052324
-[11Jan2025 05:14:44.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -35.10731512097141,0.645797428664423,2.5459466974284624
-[11Jan2025 05:14:44.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -35.728538263686005,0.6503452402515251,2.369037631917763
-[11Jan2025 05:14:44.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.33852580444841,0.6546033407591096,2.163574455834805
-[11Jan2025 05:14:44.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.93567608353919,0.658561793160402,1.929539169799682
-[11Jan2025 05:14:44.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -37.51897030535906,0.6622237463240737,1.6678691957977207
-[11Jan2025 05:14:44.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.08791463380703,0.6656120970620236,1.3800908981361317
-[11Jan2025 05:14:44.419] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.64245731134724,0.6687698086367106,1.068056871832141
-[11Jan2025 05:14:44.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.18289888779441,0.6717563274291365,0.7337640419150375
-[11Jan2025 05:14:44.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.70980649285957,0.6746420236156894,0.3792323664056312
-[11Jan2025 05:14:44.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -40.22393739372569,0.6775020262685274,0.006427725243156601
-[11Jan2025 05:14:44.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -40.72617481454313,0.6804104261768629,-0.38278446524373066
-[11Jan2025 05:14:44.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.21747564010184,0.6834352942258164,-0.7866641697828527
-[11Jan2025 05:14:44.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.69882938784599,0.686634788439008,-1.2036075459191125
-[11Jan2025 05:14:45.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -42.171226554381974,0.6900543169800955,-1.6321479410626125
-[11Jan2025 05:14:45.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -42.63563592878404,0.6937248314359294,-2.0709522265260603
-[11Jan2025 05:14:45.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.09298848741378,0.6976620847275683,-2.518813869009591
-[11Jan2025 05:14:45.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.544165884061385,0.7018665894922123,-2.9746434512444466
-[11Jan2025 05:14:45.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.98999392724886,0.7063242702637211,-3.4374594162504764
-[11Jan2025 05:14:45.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -44.4312387435989,0.711007613283769,-3.9063786682945647
-[11Jan2025 05:14:45.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -44.86860544790261,0.7158771613051158,-4.380607523541585
-[11Jan2025 05:14:45.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -45.30292815495568,0.7208833194788866,-4.8592705983742235
-[11Jan2025 05:14:45.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -45.73569187732028,0.7259698535636545,-5.3409530496110165
-[11Jan2025 05:14:45.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -46.168782125871076,0.7310744917530769,-5.823876283826394
-[11Jan2025 05:14:45.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -46.60428340364024,0.7361278619920881,-6.30601454167072
-[11Jan2025 05:14:45.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -47.04432026632253,0.7410520128515543,-6.785173508036223
-[11Jan2025 05:14:45.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -47.49093566365195,0.7457595464716604,-7.259046677594142
-[11Jan2025 05:14:45.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -47.94599949930989,0.7501536573407037,-7.725257973252155
-[11Jan2025 05:14:45.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -48.41114414580784,0.7541293523962338,-8.18139812123627
-[11Jan2025 05:14:45.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -48.88772103435895,0.7575756680808468,-8.625056822833358
-[11Jan2025 05:14:45.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -49.37664393891987,0.7603786582324261,-9.054065488705419
-[11Jan2025 05:14:45.612] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -49.878054467038965,0.7624347706459673,-9.46714229404779
-[11Jan2025 05:14:45.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -50.39160027361504,0.7636603947358651,-9.86370522318748
-[11Jan2025 05:14:45.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -50.91663491996428,0.7639971910721073,-10.2437104521332
-[11Jan2025 05:14:45.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -51.452355517390515,0.7634138791913756,-10.607515238966243
-[11Jan2025 05:14:46.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -51.99799888045595,0.7619056289295685,-10.955537665262
-[11Jan2025 05:14:46.011] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -52.55315590001533,0.7594834083446642,-11.287520749245232
-[11Jan2025 05:14:46.011] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -53.117608517653935,0.7561129514235603,-11.602721475703675
-[11Jan2025 05:14:46.011] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -53.69121179613762,0.7517183012821533,-11.900060327972824
-[11Jan2025 05:14:46.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -54.2738081344653,0.7462615178669125,-12.178238503623106
-[11Jan2025 05:14:46.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -54.86516473740721,0.7397368543927314,-12.435829329471744
-[11Jan2025 05:14:46.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -55.46493190492015,0.7321661381173072,-12.671350427333891
-[11Jan2025 05:14:46.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -56.07261766741908,0.7235949624206768,-12.88332063941607
-[11Jan2025 05:14:46.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -56.68757514147933,0.7140894093130896,-13.070304523992036
-[11Jan2025 05:14:46.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -57.30899026825887,0.7037331154515982,-13.23119683206005
-[11Jan2025 05:14:46.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -57.935910833538856,0.6926365510569639,-13.365941033063336
-[11Jan2025 05:14:46.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -58.56739668842829,0.6809395781283172,-13.475227211855326
-[11Jan2025 05:14:46.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -59.202600617167946,0.6688090694993747,-13.56025305781941
-[11Jan2025 05:14:46.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -59.840804732826655,0.6564335189819559,-13.622539767593025
-[11Jan2025 05:14:46.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -60.48142749684507,0.64401611784875,-13.663793796899427
-[11Jan2025 05:14:46.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -61.1240148501081,0.6317674323941134,-13.685805372218056
-[11Jan2025 05:14:46.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -61.768222731465585,0.619898413181474,-13.690375888416838
-[11Jan2025 05:14:46.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -62.413797479246796,0.6086141532497322,-13.679267310356863
-[11Jan2025 05:14:47.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -63.060555142311614,0.598108572158452,-13.654168236597343
-[11Jan2025 05:14:47.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -63.708363149507704,0.5885156928197262,-13.616672331659174
-[11Jan2025 05:14:47.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -64.35716159084132,0.5798898158698336,-13.568513036110744
-[11Jan2025 05:14:47.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -65.007056975468,0.5722833967658119,-13.512248344929503
-[11Jan2025 05:14:47.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -65.6582526240345,0.5657434692670904,-13.450950686159103
-[11Jan2025 05:14:47.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -66.3109702953052,0.5603063811349926,-13.387979648455712
-[11Jan2025 05:14:47.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -66.96537571235808,0.5559924858049072,-13.326815569542305
-[11Jan2025 05:14:47.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -67.62151546941868,0.5528018579853438,-13.270937042070273
-[11Jan2025 05:14:47.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -68.27926996095016,0.5507116133940855,-13.2237299566591
-[11Jan2025 05:14:47.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -68.93832110618428,0.5496749261649114,-13.188419660404179
-[11Jan2025 05:14:47.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -69.59816067129145,0.5496216335689184,-13.167771434491442
-[11Jan2025 05:14:47.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -70.2581999367178,0.5504680618615367,-13.163353852235105
-[11Jan2025 05:14:47.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -70.9178602431441,0.5521257492348326,-13.175851124864948
-[11Jan2025 05:14:47.465] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -71.57662613970047,0.5545076599083103,-13.205309067146118
-[11Jan2025 05:14:47.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -72.23407155790528,0.5575319050952032,-13.251326113977939
-[11Jan2025 05:14:47.502] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -72.88986817295404,0.5611235264779992,-13.313199553565937
-[11Jan2025 05:14:47.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -73.54378280527862,0.5652149743390424,-13.390035747252114
-[11Jan2025 05:14:47.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -74.1956674935011,0.5697457272566027,-13.480831685914382
-[11Jan2025 05:14:48.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -74.84544832058691,0.5746616528977597,-13.584534830853954
-[11Jan2025 05:14:48.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -75.49311173047045,0.5799141750404004,-13.700085488120294
-[11Jan2025 05:14:48.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -76.13869211633846,0.585459552389409,-13.826446404443232
-[11Jan2025 05:14:48.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -76.78226065114791,0.5912583081508416,-13.962622641806774
-[11Jan2025 05:14:48.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -77.42391580853518,0.5972748716352498,-14.10767424414189
-[11Jan2025 05:14:48.743] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -78.06377480044125,0.6034773589363596,-14.260723425169544
-[11Jan2025 05:14:48.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -78.70196716688883,0.6098375184646159,-14.420957980894855
-[11Jan2025 05:14:48.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -79.3386290734968,0.6163307344228031,-14.587631851805327
-[11Jan2025 05:14:48.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -79.97389907347383,0.6229360932475458,-14.760063826672194
-[11Jan2025 05:14:48.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -80.6079152519253,0.629636506984312,-14.937634987268211
-[11Jan2025 05:14:48.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -81.24081274677701,0.6364187859849295,-15.1197852587934
-[11Jan2025 05:14:48.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -81.87272201582618,0.6432736915138122,-15.306009450305282
-[11Jan2025 05:14:48.847] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -82.5037668170321,0.6501958292125494,-15.495852732762614
-[11Jan2025 05:14:48.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -83.13406448241517,0.6571835932177947,-15.688906697786024
-[11Jan2025 05:14:48.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -83.76372452261671,0.6642389266764326,-15.884804796012759
-[11Jan2025 05:14:48.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -84.39284875217231,0.6713670478336837,-16.083218271720398
-[11Jan2025 05:14:48.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -85.02153107024287,0.678576069802773,-16.283852153048883
-[11Jan2025 05:14:48.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -85.6498572413575,0.6858765346128735,-16.486441415475383
-[11Jan2025 05:14:48.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -86.27790533018879,0.6932809082463791,-16.690747522388392
-[11Jan2025 05:14:48.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -86.90574582621889,0.7008030207266245,-16.896555119397362
-[11Jan2025 05:14:48.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -87.53344197438855,0.70845746922393,-17.103669036283918
-[11Jan2025 05:14:48.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -88.16104955178412,0.7162589438414244,-17.311911354011954
-[11Jan2025 05:14:48.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -88.78861825060994,0.7242216785836177,-17.52111931528225
-[11Jan2025 05:14:48.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -89.41619110811575,0.7323587829566094,-17.73114276022079
-[11Jan2025 05:14:48.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -90.04380568643887,0.7406816998740595,-17.941842358366557
-[11Jan2025 05:14:48.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -90.67149429145775,0.7491996710207331,-18.15308785901334
-[11Jan2025 05:14:48.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -91.29928388080111,0.7579192118511884,-18.364756468679843
-[11Jan2025 05:14:49.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -91.92711678507044,0.766843774566695,-18.57696856095663
-[11Jan2025 05:14:49.346] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -92.55461724936549,0.775973202024403,-18.790753074193162
-[11Jan2025 05:14:49.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -93.18117233436419,0.7853025223565311,-19.007735880240034
-[11Jan2025 05:14:49.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -93.80597867968254,0.7948200884183905,-19.229899709001074
-[11Jan2025 05:14:49.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -94.42807073146014,0.804505670907929,-19.45940133879958
-[11Jan2025 05:14:49.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -95.0464478857707,0.8143288635384067,-19.69820870945432
-[11Jan2025 05:14:49.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -95.66042693868803,0.8242534780035129,-19.947377626101115
-[11Jan2025 05:14:49.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -96.26959324807558,0.8342417335812087,-20.207308323532743
-[11Jan2025 05:14:49.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -96.87375287103032,0.8442571832894288,-20.477941052073675
-[11Jan2025 05:14:49.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -97.47288871642809,0.8542664281027044,-20.758904210819765
-[11Jan2025 05:14:49.745] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -98.06711894726618,0.8642396678509385,-21.049623635708485
-[11Jan2025 05:14:49.745] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -98.65666221727724,0.8741506730110444,-21.349403689062456
-[11Jan2025 05:14:49.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -99.24180712119846,0.8839763566690806,-21.657485493809872
-[11Jan2025 05:14:49.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -99.8228874184399,0.8936962415196774,-21.97308866052299
-[11Jan2025 05:14:49.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -100.40026199561248,0.9032919656190472,-22.295440356797826
-[11Jan2025 05:14:49.747] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -100.97429898475548,0.9127469097155227,-22.62379496516678
-[11Jan2025 05:14:49.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -101.5453639291843,0.9220459998298907,-22.957447062865867
-[11Jan2025 05:14:49.807] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -102.11381065262822,0.9311756471969943,-23.295739208488158
-[11Jan2025 05:14:49.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -102.67997523623944,0.9401238676147727,-23.6380664201929
-[11Jan2025 05:14:51.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.887983672161454,-0.03365206825453981,-0.8816748265358001
-[11Jan2025 05:14:51.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.887983672161454,-0.03365206825453981,-0.8816748265358001
-[11Jan2025 05:14:51.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.887983672161454,-0.03365206825453981,-0.8816748265358001
-[11Jan2025 05:14:51.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.887983672161454,-0.03365206825453981,-0.8816748265358001
-[11Jan2025 05:14:51.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.887983672161454,-0.03365206825453981,-0.8816748265358001
-[11Jan2025 05:14:51.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.22911721443461,-0.029162935960528102,-0.8167111712455153
-[11Jan2025 05:14:51.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.885408324973014,-0.03307354050329536,-0.8786095052782912
-[11Jan2025 05:14:51.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.225600478144997,-0.028053577297612264,-0.8140675273743909
-[11Jan2025 05:14:51.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 13.565199851820807,-0.02278182759934566,-0.7534190551718893
-[11Jan2025 05:14:51.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 12.904199433818803,-0.01727849174041296,-0.6980476758453733
-[11Jan2025 05:14:51.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.882898734452738,-0.03212668770503058,-0.886060481592267
-[11Jan2025 05:14:51.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.22105989271904,-0.026259721222857024,-0.8260105373660735
-[11Jan2025 05:14:51.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 15.544727633008506,-0.03783041293465317,-0.9449222072576049
-[11Jan2025 05:14:51.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.8825235750694,-0.031792127001097015,-0.8822303836650462
-[11Jan2025 05:14:51.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 14.220379874865557,-0.02562502978130965,-0.8185824118063465
-[11Jan2025 05:14:51.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 13.558208683297153,-0.019362703806493187,-0.7551274618126627
-[11Jan2025 05:14:51.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 12.895958809771855,-0.013038830105116972,-0.6926534651483962
-[11Jan2025 05:14:51.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 12.233604774029345,-0.00668655398456508,-0.6316743755000971
-[11Jan2025 05:14:51.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 11.571136790802484,-3.37647499918603E-4,-0.5724985079414182
-[11Jan2025 05:14:52.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 10.908554392653059,0.005978270483254278,-0.515282130209016
-[11Jan2025 05:14:52.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! 10.245861999610042,0.012234397477200787,-0.4600712344463318
-[11Jan2025 05:14:55.592] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.593] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.609] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.618] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.618] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.201926062722578,-0.0096669103400302,0.5652610081224339
-[11Jan2025 05:14:55.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -12.872627257543627,0.0013015398718607685,0.6342920115462221
-[11Jan2025 05:14:55.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -13.544131457673302,0.012626970054881781,0.6975410145946626
-[11Jan2025 05:14:55.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -14.216323497434587,0.024530813017747732,0.7560004672141076
-[11Jan2025 05:14:55.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -14.889092096559125,0.03719675792704891,0.8104558737877596
-[11Jan2025 05:14:55.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -15.56232692619028,0.05077333834259434,0.8615259929724743
-[11Jan2025 05:14:55.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -16.2359159155601,0.06537633394538034,0.9096956875059732
-[11Jan2025 05:14:55.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -16.909744652566133,0.08109107430807683,0.95534301964517
-[11Jan2025 05:14:55.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -17.583696693488946,0.09797463027744868,0.9987614980022954
-[11Jan2025 05:14:55.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -18.257654056464617,0.11605790215382683,1.0401783502961734
-[11Jan2025 05:14:55.747] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -18.93149794506644,0.13534761655529337,1.0797695798851237
-[11Jan2025 05:14:55.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -19.605109923394593,0.15582830300306227,1.117672290122755
-[11Jan2025 05:14:55.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -20.278373584872043,0.1774643000164815,1.1539948792260475
-[11Jan2025 05:14:55.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -20.951175226256055,0.2002016605487853,1.1888252139533506
-[11Jan2025 05:14:55.953] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -21.623405855405963,0.22397020261574596,1.2222373620147664
-[11Jan2025 05:14:56.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -22.294962141869064,0.2486854905965572,1.2542969832447852
-[11Jan2025 05:14:56.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -22.96574812142194,0.2742509167680396,1.2850656146806614
-[11Jan2025 05:14:56.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -23.635675664528662,0.30055968702566815,1.3146039664579803
-[11Jan2025 05:14:56.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -24.304666051377126,0.3274969174407829,1.3429744529503296
-[11Jan2025 05:14:56.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -24.97265049549378,0.35494164251679194,1.370243029647554
-[11Jan2025 05:14:56.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -25.639571151747987,0.3827688440907764,1.396480444772351
-[11Jan2025 05:14:56.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -26.305381217736794,0.4108513532713971,1.4217629651152492
-[11Jan2025 05:14:56.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -26.970045773636684,0.43906177985937234,1.4461727487196185
-[11Jan2025 05:14:56.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -27.63354104564928,0.46727418221499306,1.4697977465352778
-[11Jan2025 05:14:56.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -28.295855354081823,0.4953658337096414,1.492731440013813
-[11Jan2025 05:14:56.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -28.956988333641675,0.5232186900195899,1.515072191640229
-[11Jan2025 05:14:56.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -29.616957430437196,0.5507207734595596,1.5366729513971222
-[11Jan2025 05:14:56.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -30.275810912957468,0.5777670523313532,1.556444315216595
-[11Jan2025 05:14:56.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -30.93359302362569,0.6042594009247182,1.5726731094528077
-[11Jan2025 05:14:56.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -31.590304253329577,0.6301058014635146,1.5832611997111599
-[11Jan2025 05:14:56.756] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -32.245862974816646,0.655219142608388,1.585903477093325
-[11Jan2025 05:14:56.839] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -32.90007334310076,0.6795161406955543,1.5782199846976255
-[11Jan2025 05:14:56.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -33.5526360438289,0.7029167020337752,1.5581009028337576
-[11Jan2025 05:14:57.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -34.20326331790989,0.7253503381495818,1.5244558343101744
-[11Jan2025 05:14:57.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -34.85172447653099,0.7467612940525896,1.4769323076052387
-[11Jan2025 05:14:57.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -35.49786726792718,0.7671114155925665,1.415697812230519
-[11Jan2025 05:14:57.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.141569304951645,0.7863809574268146,1.3410291369768856
-[11Jan2025 05:14:57.238] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -36.782559843173885,0.8045616824812498,1.252523317084524
-[11Jan2025 05:14:57.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -37.42041514553807,0.8216523386786747,1.1493279520586839
-[11Jan2025 05:14:57.245] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.054554865659156,0.8376556218396587,1.0303175086610281
-[11Jan2025 05:14:57.261] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -38.6842420902035,0.8525761462141901,0.8942276872899129
-[11Jan2025 05:14:57.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.30858727525856,0.8664191610707093,0.7397571945543859
-[11Jan2025 05:14:57.394] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -39.92655522604264,0.8791897288566588,0.5656443522775589
-[11Jan2025 05:14:57.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -40.53697712773078,0.8908924281758033,0.3707234184967092
-[11Jan2025 05:14:57.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.13856398792086,0.9015312299668778,0.15396585242615402
-[11Jan2025 05:14:57.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -41.72992274188846,0.911109595416363,-0.08549082339959568
-[11Jan2025 05:14:57.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -42.30957488338163,0.9196307444708935,-0.3483243532086817
-[11Jan2025 05:14:57.602] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -42.87613248929324,0.927097856396955,-0.6348221109278711
-[11Jan2025 05:14:57.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.42878750542218,0.9335268619718136,-0.9443878252614013
-[11Jan2025 05:14:57.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -43.96722700317537,0.9389526106076289,-1.2758752269051001
-[11Jan2025 05:14:57.795] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -44.491538107416545,0.943429588986092,-1.6278266010854168
-[11Jan2025 05:14:57.809] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -45.00211481026213,0.9470291900680934,-1.9986378750072618
-[11Jan2025 05:14:57.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -45.4995740913032,0.9498352577326159,-2.386669528247239
-[11Jan2025 05:14:57.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -45.984683637637545,0.9519390100096814,-2.7903174106072584
-[11Jan2025 05:14:58.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -46.45830340871794,0.9534342880740212,-3.2080565632709295
-[11Jan2025 05:14:58.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -46.921338812037675,0.9544134080196898,-3.6384650607151343
-[11Jan2025 05:14:58.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -47.3747050395059,0.9549638831238241,-4.08023512981481
-[11Jan2025 05:14:58.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -47.81930094795507,0.9551660425944988,-4.5321758963027605
-[11Jan2025 05:14:58.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -48.25599071567353,0.9550915231338024,-4.993211088053158
-[11Jan2025 05:14:58.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -48.68559180743955,0.9548025057205081,-5.462373411320641
-[11Jan2025 05:14:58.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -49.108867216360295,0.954351499812887,-5.938796850888593
-[11Jan2025 05:14:58.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -49.526522089887294,0.953781647802245,-6.42170862266903
-[11Jan2025 05:14:58.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -49.93920268385682,0.9531273717435909,-6.910420840993083
-[11Jan2025 05:14:58.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -50.347696626300376,0.9524152532687964,-7.404171091810895
-[11Jan2025 05:14:58.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -50.75348183838537,0.9516675997748791,-7.901703411729613
-[11Jan2025 05:14:58.578] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -51.15847300932046,0.9509027577945375,-8.401434123764375
-[11Jan2025 05:14:58.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -51.564819476769344,0.9501335993736149,-8.90155964471569
-[11Jan2025 05:14:58.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -51.97474619873606,0.9493653934497388,-9.400125533574737
-[11Jan2025 05:14:58.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -52.390431577580785,0.9485939666762846,-9.895072718677511
-[11Jan2025 05:14:58.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -52.81391625108017,0.9478047132421494,-10.384271265172629
-[11Jan2025 05:14:58.841] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -53.24703614057944,0.9469725100342714,-10.865546332404847
-[11Jan2025 05:14:58.841] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of dylanve) moved too quickly! -53.69137738772133,0.9460626355315043,-11.336702194693316
-[11Jan2025 05:16:51.513] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:20:09.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 05:20:54.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 05:21:30.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
-[11Jan2025 05:22:44.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 05:22:50.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 05:23:01.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 05:23:02.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 05:27:43.922] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
+[11Jan2025 05:27:43.953] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[11Jan2025 05:27:44.111] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1330 advancements
+[11Jan2025 05:27:44.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Jan2025 05:27:44.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Jan2025 05:27:44.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Jan2025 05:27:44.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Jan2025 05:27:44.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Jan2025 05:27:44.976] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Jan2025 05:27:45.163] [Server thread/INFO] [Framework/]: Loading server configs...
+[11Jan2025 05:27:45.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Jan2025 05:27:49.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Jan2025 05:27:55.292] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.314] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.331] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.370] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.444] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.481] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.503] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.516] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.538] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.550] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:55.675] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:56.110] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jan2025 05:27:56.585] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[11Jan2025 05:27:57.086] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[11Jan2025 05:27:57.646] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8062 ms
+[11Jan2025 05:27:57.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.516s)! For help, type "help"
+[11Jan2025 05:27:57.683] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Jan2025 05:27:57.960] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 110985 bytes (in 12 string chunks with the size of 10000)
+[11Jan2025 05:29:09.309] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
+[11Jan2025 05:29:11.291] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:58161] logged in with entity id 49 at (-1921.6353734639715, 83.38521575927734, 4155.418278398153)
+[11Jan2025 05:29:11.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 05:29:13.312] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[11Jan2025 05:29:30.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
+[11Jan2025 05:30:05.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Blue Bed] to dylanve]
+[11Jan2025 05:30:40.137] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved wrongly!
+[11Jan2025 05:31:19.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 05:31:42.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 05:32:39.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 05:32:42.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 05:33:03.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 05:33:26.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported 253 entities to dylanve]
+[11Jan2025 05:33:38.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 05:34:15.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 05:34:41.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 05:36:11.918] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
+[11Jan2025 05:36:11.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 05:36:11.982] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
