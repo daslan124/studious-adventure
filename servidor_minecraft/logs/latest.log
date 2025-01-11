@@ -309,3 +309,5 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 00:47:26.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of dylanve) moved too quickly! 10.04358227034595,0.0,2.523865123737096
 [11Jan2025 00:47:26.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of dylanve) moved too quickly! 9.728143977819855,0.0,2.4877092483948218
 [11Jan2025 00:48:12.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Sweet Dreams]
+[11Jan2025 00:57:21.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Acquire Hardware]
+[11Jan2025 00:59:07.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was slain by Spider

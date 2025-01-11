@@ -1293,3 +1293,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 00:48:12.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Sweet Dreams]
 [11Jan2025 00:50:03.832] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [11Jan2025 00:50:03.840] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 00:55:03.792] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 00:55:03.799] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 00:57:21.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Acquire Hardware]
+[11Jan2025 00:59:07.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was slain by Spider
+[11Jan2025 01:00:03.779] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 01:00:03.785] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
