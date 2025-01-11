@@ -1,0 +1,11 @@
+[11Jan2025 00:00:15.144] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
+[11Jan2025 00:00:15.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 00:00:27.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:50902] logged in with entity id 195 at (-373.6713720410398, 68.0, 1612.163805521543)
+[11Jan2025 00:00:27.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 00:01:31.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -6.460192695868955,4.075444065189487,6.718923649150838
+[11Jan2025 00:01:35.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve was kicked for floating too long!
+[11Jan2025 00:01:35.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Flying is not enabled on this server
+[11Jan2025 00:01:35.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 00:01:47.645] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:50973] logged in with entity id 595 at (-478.77889192684233, 89.24918707874468, 1679.3869009681769)
+[11Jan2025 00:01:47.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 00:02:43.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -3.0163578088328222,-9.0,-3.6957050853607143
