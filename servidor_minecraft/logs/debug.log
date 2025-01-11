@@ -1218,3 +1218,18 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 04:02:50.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Into Fire]
 [11Jan2025 04:02:50.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 2 [Blaze Rod] to dylanve]
 [11Jan2025 04:03:13.736] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! 0.34931166939304603,-1.044812420399019,10.243148335390373
+[11Jan2025 04:03:43.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 2 [Lapis Lazuli] to dylanve]
+[11Jan2025 04:04:16.688] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 04:04:16.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 04:04:19.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Light Weighted Pressure Plate] to dylanve]
+[11Jan2025 04:04:40.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 5 [Redstone Dust] to dylanve]
+[11Jan2025 04:04:54.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 2 [Lapis Lazuli] to dylanve]
+[11Jan2025 04:05:58.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 04:06:24.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 04:07:32.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 04:08:05.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 04:09:09.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 04:09:16.637] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 04:09:16.643] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 04:12:29.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
+[11Jan2025 04:12:29.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
