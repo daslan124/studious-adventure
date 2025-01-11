@@ -448,3 +448,24 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 18:30:49.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
 [11Jan2025 18:32:06.891] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
 [11Jan2025 18:32:18.916] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1289b5a9[id=865503c6-1718-4e3c-8707-14156e380ba7,name=dylanve,properties={textures=[com.mojang.authlib.properties.Property@62bed781]},legacy=false] (/10.244.208.220:58931) lost connection: Disconnected
+[11Jan2025 18:35:09.041] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
+[11Jan2025 18:35:10.718] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:59041] logged in with entity id 35578 at (98920.97390726389, 77.0, 99745.51530933486)
+[11Jan2025 18:35:10.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 18:36:10.865] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
+[11Jan2025 18:36:10.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 18:37:32.901] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
+[11Jan2025 18:37:34.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:59119] logged in with entity id 36013 at (98893.30000001192, 81.0, 99681.02502227131)
+[11Jan2025 18:37:34.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 18:39:03.825] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[11Jan2025 18:39:03.825] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 0 is dual wielding: false
+[11Jan2025 18:39:03.826] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 iron_sword
+[11Jan2025 18:39:03.826] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 shield
+[11Jan2025 18:39:03.826] [Netty Epoll Server IO #6/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[11Jan2025 18:39:56.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[11Jan2025 18:41:56.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve moved too quickly! -10.722857090222533,0.06725766774329145,2.039902385615278
+[11Jan2025 18:42:01.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[11Jan2025 18:42:50.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
+[11Jan2025 18:43:11.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Cover Me with Diamonds]
+[11Jan2025 18:43:19.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 18:43:50.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
+[11Jan2025 18:43:50.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
