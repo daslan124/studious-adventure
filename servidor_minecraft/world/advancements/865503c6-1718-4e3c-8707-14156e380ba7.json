@@ -1271,5 +1271,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-01-11 18:58:24 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:sneak_grove": {
+    "criteria": {
+      "steal_crystal": "2025-01-11 19:01:20 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

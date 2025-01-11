@@ -486,3 +486,29 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Jan2025 18:50:52.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
 [11Jan2025 18:53:33.662] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Timed out
 [11Jan2025 18:53:33.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[11Jan2025 18:57:04.586] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
+[11Jan2025 18:57:06.064] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:59999] logged in with entity id 41067 at (98927.35827403891, 93.0, 99736.69999998808)
+[11Jan2025 18:57:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
+[11Jan2025 18:59:06.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to 1000000.500000, 100.000000, 1000000.500000]
+[11Jan2025 18:59:06.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 18:59:11.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 18:59:44.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Black Bed] to dylanve]
+[11Jan2025 19:01:04.423] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element mowziesmobs:umvuthana_grove took 699 ms
+[11Jan2025 19:01:08.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to 998064.500000, 64.000000, 999296.500000]
+[11Jan2025 19:01:08.532] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2173ms or 43 ticks behind
+[11Jan2025 19:01:20.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve has made the advancement [Birds of a Feather]
+[11Jan2025 19:02:14.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 19:02:28.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 19:06:23.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 19:06:25.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 19:07:20.802] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element mowziesmobs:frostmaw_spawn took 946 ms
+[11Jan2025 19:07:25.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to 999296.500000, 64.000000, 1002528.500000]
+[11Jan2025 19:08:07.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve was slain by Frostmaw
+[11Jan2025 19:08:32.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Applied enchantment Sharpness V to dylanve's item]
+[11Jan2025 19:08:57.818] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element mowziesmobs:wrought_chamber took 0 ms
+[11Jan2025 19:09:00.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to 999904.500000, 64.000000, 999920.500000]
+[11Jan2025 19:10:01.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
+[11Jan2025 19:10:29.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Teleported dylanve to 999904.500000, -10.731528, 999920.500000]
+[11Jan2025 19:10:45.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
+[11Jan2025 19:11:05.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 19 [Golden Apple] to dylanve]
+[11Jan2025 19:11:51.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Black Bed] to dylanve]
