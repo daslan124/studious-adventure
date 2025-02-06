@@ -1,45 +1,92 @@
-[11Jan2025 21:44:30.260] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[11Jan2025 21:44:30.264] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[11Jan2025 21:44:30.613] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11Jan2025 21:44:30.678] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/studious-adventure/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[11Jan2025 21:44:30.949] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 21:44:30.951] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 21:44:30.952] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 21:44:30.953] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 21:44:31.183] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[11Jan2025 21:44:33.617] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jan2025 21:44:33.681] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[11Jan2025 21:44:33.881] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 21:44:35.080] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11Jan2025 21:44:41.556] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[11Jan2025 21:44:41.562] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[11Jan2025 21:44:41.564] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[11Jan2025 21:44:41.740] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[11Jan2025 21:44:41.964] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[11Jan2025 21:44:41.965] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[11Jan2025 21:44:44.137] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[11Jan2025 21:44:44.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[11Jan2025 21:44:44.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[11Jan2025 21:44:45.243] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11Jan2025 21:44:45.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[11Jan2025 21:44:45.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jan2025 21:44:45.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[11Jan2025 21:44:46.254] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[11Jan2025 21:44:46.255] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[11Jan2025 21:44:48.046] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag simpleplanes:fireproof_materials as it is missing following references: #minecraft:non_flammable_wood (from simpleplanes-1.20.1-5.3.3.jar)
-[11Jan2025 21:44:49.129] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+[06Feb2025 18:11:38.280] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Feb2025 18:11:38.283] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[06Feb2025 18:11:38.642] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Feb2025 18:11:38.717] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/studious-adventure/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Feb2025 18:11:39.035] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Feb2025 18:11:39.039] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Feb2025 18:11:39.041] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Feb2025 18:11:39.043] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Feb2025 18:11:39.318] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[06Feb2025 18:11:41.572] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Feb2025 18:11:41.730] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Feb2025 18:11:42.006] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Feb2025 18:11:42.049] [main/INFO] [Puzzles Lib/]: Loading 31 mods:
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- bettercombat 1.8.6+1.20.1
+	- cataclysm 2.47
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.20
+	- curios 5.11.1+1.20.1
+	- forge 47.3.7
+	- geckolib 4.7
+	- glitchcore 0.0.1.1
+	- immersive_aircraft 1.1.8+1.20.1
+	- jei 15.12.2.51
+	- lionfishapi 2.4-Fix
+	- minecraft 1.20.1
+	- moonlight 1.20-2.13.58
+		\-- mixinextras 0.3.6
+	- mowziesmobs 1.7.0
+	- octolib 0.4.2
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- sawmill 1.20-1.4.6
+	- sereneseasons 9.1.0.0
+	- shieldexp 1.2.2
+	- simplyswords 1.56.0-1.20.1
+	- structory 1.3.5
+	- supermartijn642configlib 1.1.8
+	- yungsapi 1.20-Forge-4.0.6
+[06Feb2025 18:11:42.071] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Feb2025 18:11:43.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:43.401] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:43.981] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[06Feb2025 18:11:45.731] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:45.732] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:47.483] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:47.484] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Feb2025 18:11:51.427] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[06Feb2025 18:11:51.600] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[06Feb2025 18:11:51.674] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[06Feb2025 18:11:51.764] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Feb2025 18:11:51.765] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Feb2025 18:11:52.552] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
+[06Feb2025 18:11:54.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[06Feb2025 18:11:54.341] [main/INFO] [Moonlight/]: Initialized color sets in 38ms
+[06Feb2025 18:11:54.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.58 Target: null
+[06Feb2025 18:11:54.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[06Feb2025 18:11:54.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.25 Target: null
+[06Feb2025 18:11:54.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [shieldexp] Starting version check at https://infernalstudios.org/api/mods/shieldexpansion/forge
+[06Feb2025 18:11:54.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [shieldexp] Found status: BETA Current: 1.2.2 Target: null
+[06Feb2025 18:11:54.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[06Feb2025 18:11:54.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[06Feb2025 18:11:54.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Feb2025 18:11:54.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.27
+[06Feb2025 18:11:54.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[06Feb2025 18:11:55.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[06Feb2025 18:11:55.666] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Feb2025 18:11:56.331] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[06Feb2025 18:11:56.331] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[06Feb2025 18:11:56.413] [main/INFO] [Sawmill/]: Generated runtime SERVER_DATA for pack Sawmill Sawmill Recipes (sawmill) in: 0 ms (debug resource dump on)
+[06Feb2025 18:11:58.373] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[06Feb2025 18:12:00.129] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -47,10 +94,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -58,20 +105,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
@@ -79,205 +126,108 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[11Jan2025 21:44:49.926] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
-[11Jan2025 21:44:49.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[11Jan2025 21:44:50.099] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1330 advancements
-[11Jan2025 21:44:50.698] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[11Jan2025 21:44:50.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jan2025 21:44:50.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jan2025 21:44:50.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jan2025 21:44:50.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jan2025 21:44:50.956] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jan2025 21:44:51.105] [Server thread/INFO] [Framework/]: Loading server configs...
-[11Jan2025 21:44:51.125] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jan2025 21:44:55.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jan2025 21:45:01.545] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.569] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.609] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.641] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.686] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.700] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.730] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.776] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.805] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.812] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.814] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:01.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:02.052] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:02.514] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 21:45:03.014] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[11Jan2025 21:45:03.514] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[11Jan2025 21:45:04.014] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[11Jan2025 21:45:04.160] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9147 ms
-[11Jan2025 21:45:04.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.084s)! For help, type "help"
-[11Jan2025 21:45:04.191] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jan2025 21:45:04.424] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[11Jan2025 21:45:04.453] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 110985 bytes (in 12 string chunks with the size of 10000)
-[11Jan2025 21:45:36.571] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
-[11Jan2025 21:45:38.218] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:61520] logged in with entity id 4 at (997928.3000000119, 73.0, 999554.9657466908)
-[11Jan2025 21:45:38.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
-[11Jan2025 21:45:40.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2188ms or 43 ticks behind
-[11Jan2025 21:46:15.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:46:22.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:46:54.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 3 [Lava Bucket] to dylanve]
-[11Jan2025 21:47:01.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:47:07.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:47:45.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:48:00.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:49:38.109] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve was kicked for floating too long!
-[11Jan2025 21:49:38.110] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
-[11Jan2025 21:49:38.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
-[11Jan2025 21:49:38.215] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[11Jan2025 21:49:47.139] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player dylanve is 865503c6-1718-4e3c-8707-14156e380ba7
-[11Jan2025 21:49:48.619] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dylanve[/10.244.208.220:61541] logged in with entity id 759 at (997936.4368362147, 74.79999995231628, 999570.9577992245)
-[11Jan2025 21:49:48.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve joined the game
-[11Jan2025 21:51:08.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:51:29.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:52:28.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:52:38.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:54:05.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:54:06.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 21:54:10.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:54:14.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Spectator Mode]
-[11Jan2025 21:54:14.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:54:16.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve fell from a high place
-[11Jan2025 21:55:15.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Blue Bed] to dylanve]
-[11Jan2025 21:55:23.306] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/1937, l='ServerLevel[world]', x=997935.76, y=71.94, z=999573.44] died, message: 'Nitwit was slain by Zombie'
-[11Jan2025 21:57:24.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve blew up
-[11Jan2025 21:58:04.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Creative Mode]
-[11Jan2025 21:58:43.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Gave 1 [Lava Bucket] to dylanve]
-[11Jan2025 21:59:11.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [dylanve: Set own game mode to Survival Mode]
-[11Jan2025 21:59:43.288] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.768585521844216,5.6262938207215,18.23416940239258
-[11Jan2025 21:59:43.296] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.270383256836794,5.05712413127101,17.32846067578066
-[11Jan2025 21:59:43.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 9.766511510009877,4.485930116324212,16.41267669701483
-[11Jan2025 21:59:43.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 9.257007081876509,3.9128490139039087,15.486876613576896
-[11Jan2025 21:59:43.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 8.741907114745118,3.3380176350865867,14.55112091160845
-[11Jan2025 21:59:43.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 8.221248576417565,2.761572276800038,13.60547172371298
-[11Jan2025 21:59:43.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 7.695068707223982,2.183648743581273,12.649992540245876
-[11Jan2025 21:59:43.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 7.163405013852753,1.6043822342199547,11.684748250292614
-[11Jan2025 21:59:43.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 6.626295479014516,1.0239074051651755,10.709804959129542
-[11Jan2025 21:59:43.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 6.083778314641677,0.4423582094780443,9.725230187759735
-[11Jan2025 21:59:43.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 5.535891908919439,-0.14013202768587973,8.73109282727819
-[11Jan2025 21:59:48.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 4.31304115022067,6.853312827389885,9.237629188457504
-[11Jan2025 21:59:48.498] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 3.6241468677762896,6.430631156670145,8.138078096322715
-[11Jan2025 21:59:49.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.626777366152965
-[11Jan2025 21:59:49.732] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.654646228067577,-4.9866391093537885,11.45204206451308
-[11Jan2025 21:59:49.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.677796712028794,-4.984376246144606,11.364273419370875
-[11Jan2025 21:59:49.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 11.658629655488767,-3.269922326804121,11.546159234829247
-[11Jan2025 21:59:49.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 12.138948773615994,-2.904581946222521,11.596923011704348
-[11Jan2025 21:59:49.963] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 13.020284406258725,-2.1521425149141464,11.652161055826582
-[11Jan2025 21:59:49.980] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 13.048346232390031,-2.1521425149141464,11.63514491613023
-[11Jan2025 21:59:50.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 13.477159108151682,-2.0,11.62760503392201
-[11Jan2025 21:59:50.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 13.872443078900687,-2.020894922100169,11.600164951290935
-[11Jan2025 21:59:50.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 14.23421903711278,-2.0537048819274304,11.557993133203126
-[11Jan2025 21:59:50.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 14.39594500605017,-2.0907093346305885,11.328698473749682
-[11Jan2025 21:59:50.238] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 14.586544585763477,-2.1289144996332396,11.075080314418301
-[11Jan2025 21:59:50.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 14.837908715824597,-2.165254417412271,10.812511464231648
-[11Jan2025 21:59:50.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 15.081095552071929,-2.195905513034006,10.59698537492659
-[11Jan2025 21:59:50.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 15.311876829597168,-2.2194954600113874,10.578455351758748
-[11Jan2025 21:59:50.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 15.531958649167791,-2.234688765585773,10.561972874216735
-[11Jan2025 21:59:50.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 15.743122608051635,-2.2407887459668103,10.547685036319308
-[11Jan2025 21:59:50.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 15.878979413537309,-2.237571337826381,10.5353931596037
-[11Jan2025 21:59:50.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.07340354193002,-2.226888418380142,10.582614101818763
-[11Jan2025 21:59:50.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.262086777947843,-2.210655971905908,10.68010929808952
-[11Jan2025 21:59:50.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.262086777947843,-2.210655971905908,10.68010929808952
-[11Jan2025 21:59:50.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.61545685864985,-2.16166979547053,10.998188745346852
-[11Jan2025 21:59:50.760] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.77884430461563,-2.1317591734228927,11.209722811239772
-[11Jan2025 21:59:50.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 16.933286529383622,-2.0997174873936757,11.451923447544686
-[11Jan2025 21:59:50.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.07925391185563,-2.066462821492081,11.722079905564897
-[11Jan2025 21:59:50.911] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.217309384257533,-2.0322571466547146,12.017911104252562
-[11Jan2025 21:59:50.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.348668248276226,-2.0,12.337236598017626
-[11Jan2025 21:59:51.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.467324585886672,-2.0,12.663001958047971
-[11Jan2025 21:59:51.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.57499573600944,-2.0,12.9940204086015
-[11Jan2025 21:59:51.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.67319564241916,-2.0,13.329241290106438
-[11Jan2025 21:59:51.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.763242894550785,-2.0,13.66797288809903
-[11Jan2025 21:59:51.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 17.846282712882385,-2.0,14.009670868865214
-[11Jan2025 22:00:02.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -7.6954691800056025,2.7136561041018865,6.959718781756237
-[11Jan2025 22:00:02.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -7.887085236143321,2.7585618908277354,6.8631774531677365
-[11Jan2025 22:00:03.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -18.27606562548317,-0.8995416917392447,4.7365398711990565
-[11Jan2025 22:00:03.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -17.435760156833567,-1.0440231908200133,4.218173557543196
-[11Jan2025 22:00:03.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -16.570329442969523,-1.134355846014202,3.7302091896999627
-[11Jan2025 22:00:03.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -15.686872181482613,-1.174360710250113,3.272308857180178
-[11Jan2025 22:00:03.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -14.791471773874946,-1.1676178853376342,2.8436770489206538
-[11Jan2025 22:00:03.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -13.889348826021887,-1.1173851829098425,2.443267290131189
-[11Jan2025 22:00:03.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.985012729652226,-1.0265932846406116,2.0699241479160264
-[11Jan2025 22:00:03.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.082394870463759,-0.8978808423997577,1.722474028589204
-[11Jan2025 22:00:03.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -11.184957971912809,-0.7336461861955144,1.3997788884444162
-[11Jan2025 22:00:03.795] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -10.295782168046571,-0.5361019556180935,1.1007646293146536
-[11Jan2025 22:00:03.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -27.89507845742628,-1.6023677924245163,11.264395838370547
-[11Jan2025 22:00:03.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -27.113682935014367,-1.8649544123659325,10.692190472502261
-[11Jan2025 22:00:03.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -26.320294788805768,-2.121034122019992,10.123277453938499
-[11Jan2025 22:00:03.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -26.388682545977645,-2.5201353557271915,9.758224853896536
-[11Jan2025 22:00:03.930] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -25.505623356904835,-2.8184954280530974,9.333863037521951
-[11Jan2025 22:00:03.939] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -24.58992522978224,-3.1215127426168294,8.972456633811817
-[11Jan2025 22:00:04.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -27.31445427297149,-3.1867826041544305,8.804630424594507
-[11Jan2025 22:00:04.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -26.34552793216426,-3.386456889602755,8.515623051323928
-[11Jan2025 22:00:04.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -25.36058482772205,-3.593204971502132,8.279923720401712
-[11Jan2025 22:00:04.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -24.36287479661405,-3.802618876568758,8.091616810881533
-[11Jan2025 22:00:04.150] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -23.35517368465662,-4.012609249919024,7.944949999335222
-[11Jan2025 22:00:04.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -23.25443628767971,-4.106020050855534,7.816743298550136
-[11Jan2025 22:00:04.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -23.14644570008386,-4.182066277366687,7.703155010356568
-[11Jan2025 22:00:04.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -24.930024461704306,-3.878212096145404,7.183318490278907
-[11Jan2025 22:00:04.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -23.957999628502876,-4.051590820322545,6.887200280092657
-[11Jan2025 22:00:04.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -22.972850931924768,-4.230286047054676,6.632952322252095
-[11Jan2025 22:00:04.441] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -22.947212232276797,-4.0435132686616555,6.370684405323118
-[11Jan2025 22:00:04.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -22.933576649753377,-3.8520715773428975,6.109580245683901
-[11Jan2025 22:00:04.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -22.920149360666983,-3.698800049704346,5.874656596686691
-[11Jan2025 22:00:04.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -22.90862377884332,-3.57629346560978,5.663283328409307
-[11Jan2025 22:00:04.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.511225419351831,-1.179413659741229,0.7398805496050045
-[11Jan2025 22:00:04.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -11.600198164116591,-1.0598606305262592,0.5369407592806965
-[11Jan2025 22:00:04.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -14.69002100545913,1.6674124602633071,-0.3425497976131737
-[11Jan2025 22:00:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -14.69002100545913,1.6674124602633071,-0.3425497976131737
-[11Jan2025 22:00:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -14.69002100545913,1.6674124602633071,-0.3425497976131737
-[11Jan2025 22:00:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -13.778246113331988,1.7826168104783022,-0.4706983150681481
-[11Jan2025 22:00:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -13.778246113331988,1.7826168104783022,-0.4706983150681481
-[11Jan2025 22:00:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -13.778246113331988,1.7826168104783022,-0.4706983150681481
-[11Jan2025 22:00:04.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.859780737315305,1.7192568620888267,-0.49739008280448616
-[11Jan2025 22:00:04.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.876998457824811,1.7462224420540622,-0.5694314552238211
-[11Jan2025 22:00:04.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.894408446270972,2.1212235801982473,-0.9334159478312358
-[11Jan2025 22:00:04.830] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.894408446270972,2.1212235801982473,-0.9334159478312358
-[11Jan2025 22:00:04.837] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.894408446270972,2.1212235801982473,-0.9334159478312358
-[11Jan2025 22:00:04.838] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.894408446270972,2.1212235801982473,-0.9334159478312358
-[11Jan2025 22:00:04.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -12.894408446270972,2.1212235801982473,-0.9334159478312358
-[11Jan2025 22:00:04.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -11.979786435840651,2.0044767481045227,-0.9159128128085285
-[11Jan2025 22:00:04.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! -11.066411265870556,1.8705135875525514,-0.882017403957434
-[11Jan2025 22:00:57.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 13.542701347032562,1.4761666564185134,-6.0977572340052575
-[11Jan2025 22:00:57.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 12.939832008443773,1.3850962951268144,-5.480156505713239
-[11Jan2025 22:00:57.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 12.310803901869804,1.2950728385435042,-4.888025186723098
-[11Jan2025 22:00:57.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 11.657917858567089,1.206320606422807,-4.321404755814001
-[11Jan2025 22:00:57.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.983147965278476,1.1190279605534954,-3.7802966345334426
-[11Jan2025 22:00:57.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Plane (vehicle of dylanve) moved too quickly! 10.288187725353055,1.0333573308863464,-3.264680587570183
-[11Jan2025 22:01:07.659] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dylanve lost connection: Disconnected
-[11Jan2025 22:01:07.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dylanve left the game
+[06Feb2025 18:12:01.496] [main/INFO] [Sawmill/]: Intercepted tag results
+[06Feb2025 18:12:01.659] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe miningmaster:forging/paragon_shield
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'miningmaster:forging_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[06Feb2025 18:12:01.688] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe shieldexp:griefer_shield
+com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[06Feb2025 18:12:01.706] [main/INFO] [Sawmill/]: Generating Sawmill Recipes
+[06Feb2025 18:12:01.774] [main/INFO] [Sawmill/]: Generated Sawmill recipes in 66 milliseconds
+[06Feb2025 18:12:01.778] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[06Feb2025 18:12:01.998] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1465 advancements
+[06Feb2025 18:12:02.012] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[06Feb2025 18:12:02.029] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[06Feb2025 18:12:02.033] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[06Feb2025 18:12:02.055] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[06Feb2025 18:12:02.807] [main/INFO] [Moonlight/]: Applied 12 data villager trades
+[06Feb2025 18:12:02.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Feb2025 18:12:02.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Feb2025 18:12:02.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Feb2025 18:12:02.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Feb2025 18:12:03.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Feb2025 18:12:03.191] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Feb2025 18:12:03.281] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Feb2025 18:12:03.281] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Feb2025 18:12:03.281] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Feb2025 18:12:03.282] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Feb2025 18:12:03.430] [Server thread/INFO] [Sawmill/]: Injecting Carpenter Village Houses
+[06Feb2025 18:12:03.438] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Feb2025 18:12:06.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Feb2025 18:12:10.333] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.333] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.334] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.334] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.335] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.336] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.337] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.337] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.393] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2025 18:12:10.893] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[06Feb2025 18:12:11.454] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5062 ms
+[06Feb2025 18:12:11.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.156s)! For help, type "help"
+[06Feb2025 18:12:11.551] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Feb2025 18:12:11.729] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 119311 bytes (in 12 string chunks with the size of 10000)
+[06Feb2025 18:21:05.234] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3cd35d47[id=<null>,name=naiosito,properties={},legacy=false] (/100.75.214.43:50413) lost connection: Disconnected
